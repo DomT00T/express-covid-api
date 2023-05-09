@@ -1,17 +1,37 @@
 {
 	"info": {
-		"_postman_id": "d676468a-30d0-4de4-a6c4-fcc83abc49ea",
+		"_postman_id": "fd9ab3a5-43aa-4b59-9d0f-f394e11e017b",
 		"name": "express-mongodb-covid-api",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27314816",
-		"_collection_link": "https://winter-space-744549.postman.co/workspace/express-covid-api~7a506e28-4e60-4189-acee-04e04ae9bf09/collection/27314816-d676468a-30d0-4de4-a6c4-fcc83abc49ea?action=share&creator=27314816&source=collection_link"
+		"_collection_link": "https://winter-space-744549.postman.co/workspace/express-covid-api~7a506e28-4e60-4189-acee-04e04ae9bf09/collection/27314816-fd9ab3a5-43aa-4b59-9d0f-f394e11e017b?action=share&creator=27314816&source=collection_link"
 	},
 	"item": [
 		{
-			"name": "user/register",
+			"name": "user/create",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"id\": 1,\r\n    \"fname\": \"Suphachok\",\r\n    \"lname\": \"Rinarpo\",\r\n    \"idcard\":\"1329600158285\",\r\n    \"email\": \"register@test.com\",\r\n    \"age\": \"25\",\r\n    \"tel\": \"0875556525\",\r\n    \"address\" : \"114 ซอย วังหลัง แขวงศิริราช เขตบางกอกน้อย กรุงเทพมหานคร 10700\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/users/register",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"register"
+					]
+				}
 			},
 			"response": []
 		},
@@ -19,7 +39,17 @@
 			"name": "users",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
 			},
 			"response": []
 		},
@@ -27,23 +57,74 @@
 			"name": "user/id",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/users/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"1"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "user/update",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"id\": 1,\r\n    \"fname\": \"Suphachok\",\r\n    \"lname\": \"Rinarpo\",\r\n    \"idcard\":\"1329600158285\",\r\n    \"email\": \"register@test.com\",\r\n    \"age\": \"25\",\r\n    \"tel\": \"0875556525\",\r\n    \"address\" : \"255 ซอย วังหลัง แขวงศิริราช เขตบางกอกน้อย กรุงเทพมหานคร 10700\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/users/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"update"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "user/delete",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"id\": 1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/users/delete",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"delete"
+					]
+				}
 			},
 			"response": []
 		}
