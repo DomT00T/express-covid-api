@@ -22,7 +22,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:3000/users/register",
+					"raw": "localhost:3000/users/create",
 					"host": [
 						"localhost"
 					],
