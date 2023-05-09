@@ -29,7 +29,7 @@
 					"port": "3000",
 					"path": [
 						"users",
-						"register"
+						"create"
 					]
 				}
 			},
