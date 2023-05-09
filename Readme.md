@@ -20,8 +20,7 @@ npm install
 3.กำหนด URI ของ MongoDB ในไฟล์ index.js โดยแก้ไขบรรทัดนี้
 
     const uri = "mongodb://myUserAdmin:myUserAdmin@127.0.0.1:27017";
-
-    *โดยแทน myUserAdmin ด้วยชื่อผู้ใช้งาน MongoDB ของคุณ และ 127.0.0.1:27017 ด้วยที่อยู่ของ MongoDB ของคุณ*
+*โดยแทน myUserAdmin ด้วยชื่อผู้ใช้งาน MongoDB ของคุณ และ 127.0.0.1:27017 ด้วยที่อยู่ของ MongoDB ของคุณ*
 
 4.เริ่มต้นเซิร์ฟเวอร์
 npm start
