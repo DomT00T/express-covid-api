@@ -11,11 +11,10 @@
 ## การติดตั้งและใช้งาน
 
 1.Clone โปรเจกต์นี้ลงบนเครื่องของคุณ
-git clone https://github.com/<domt00m>/covid-user-management.git
-
+    git clone https://github.com/<domt00m>/covid-user-management.git
 2.ติดตั้ง dependencies โดยใช้ npm
-cd covid-user-management
-npm install
+    cd covid-user-management
+    npm install
 
 3.กำหนด URI ของ MongoDB ในไฟล์ index.js โดยแก้ไขบรรทัดนี้
 
@@ -23,7 +22,7 @@ npm install
 *โดยแทน myUserAdmin ด้วยชื่อผู้ใช้งาน MongoDB ของคุณ และ 127.0.0.1:27017 ด้วยที่อยู่ของ MongoDB ของคุณ*
 
 4.เริ่มต้นเซิร์ฟเวอร์
-npm start
+    npm start
 
 5.เข้าถึง API ผ่านทาง http://localhost:3000
 
