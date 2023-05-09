@@ -1,5 +1,5 @@
-Covid-19 User Management System
 
+## Covid-19 User Management System 
 โปรเจกต์นี้เป็นระบบจัดการข้อมูลผู้ใช้งาน Covid-19 โดยใช้ฐานข้อมูล MongoDB และเขียนโดยใช้ภาษา JavaScript โดยมีฟังก์ชั่นการทำงานดังนี้
 
 - เพิ่มข้อมูลผู้ลงทะเบียน
@@ -8,7 +8,7 @@ Covid-19 User Management System
 - อัปเดตข้อมูลผู้ลงทะเบียน
 - ลบข้อมูลผู้ลงทะเบียน
 
-การติดตั้งและใช้งาน
+## การติดตั้งและใช้งาน
 
 1.Clone โปรเจกต์นี้ลงบนเครื่องของคุณ
 git clone https://github.com/<domt00m>/covid-user-management.git
@@ -28,7 +28,7 @@ npm start
 
 5.เข้าถึง API ผ่านทาง http://localhost:3000
 
-API Endpoints
+## API Endpoints
 
 POST /users/create - เพิ่มข้อมูลผู้ลงทะเบียน
 GET /users - แสดงข้อมูลผู้ลงทะเบียนทั้งหมด
