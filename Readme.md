@@ -27,12 +27,14 @@
 
     npm start
 
-5.เข้าถึง API ผ่านทาง http://localhost:3000
+5.เข้าถึง API ผ่านทาง 
+
+   http://localhost:3000
 
 ## API Endpoints
 
-POST /users/create - เพิ่มข้อมูลผู้ลงทะเบียน
-GET /users - แสดงข้อมูลผู้ลงทะเบียนทั้งหมด
-GET /users/:id - แสดงข้อมูลผู้ลงทะเบียนจาก id
-PUT /users/update - อัปเดตข้อมูลจาก id
-DELETE /users/delete ลบข้อมูลผู้ลงทะเบียนจาก id
+- POST /users/create - เพิ่มข้อมูลผู้ลงทะเบียน
+- GET /users - แสดงข้อมูลผู้ลงทะเบียนทั้งหมด
+- GET /users/:id - แสดงข้อมูลผู้ลงทะเบียนจาก id
+- PUT /users/update - อัปเดตข้อมูลจาก id
+- DELETE /users/delete ลบข้อมูลผู้ลงทะเบียนจาก id
